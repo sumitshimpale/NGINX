@@ -1,8 +1,222 @@
-<h1> Hello Dosto </h1>
+<!doctype html>
 
-<h2> Apka swagat hai Josh Batch 10 me </h2
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sumit • DevOps Engineer</title>
 
-BOOM!>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
 
+<style>
 
-new best feature
+:root{
+--bg:#0b0f17;
+--card:#0f1625cc;
+--stroke:#1f2a40;
+--text:#e7eefc;
+--muted:#a9b4cc;
+--brand:#ff7a18;
+--brand2:#ffb703;
+}
+
+body{
+margin:0;
+font-family:"Space Grotesk",sans-serif;
+background:#070b12;
+color:var(--text);
+display:flex;
+justify-content:center;
+padding:30px;
+}
+
+.wrap{
+max-width:950px;
+width:100%;
+display:grid;
+gap:20px;
+}
+
+.topbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.brand{
+display:flex;
+align-items:center;
+gap:10px;
+color:var(--muted);
+}
+
+.dot{
+width:10px;
+height:10px;
+border-radius:50%;
+background:linear-gradient(135deg,var(--brand),var(--brand2));
+}
+
+.hero{
+border:1px solid var(--stroke);
+padding:30px;
+border-radius:18px;
+background:#111827;
+}
+
+.hero h1{
+margin:0;
+font-size:40px;
+}
+
+.hero span{
+background:linear-gradient(90deg,var(--brand),var(--brand2));
+-webkit-background-clip:text;
+color:transparent;
+}
+
+.hero h2{
+font-size:18px;
+color:var(--muted);
+}
+
+.grid{
+display:grid;
+grid-template-columns:1.2fr .8fr;
+gap:18px;
+}
+
+.card{
+background:#111827;
+border:1px solid var(--stroke);
+border-radius:18px;
+padding:20px;
+}
+
+.list{
+list-style:none;
+padding:0;
+display:grid;
+gap:10px;
+}
+
+.item{
+background:#1f2937;
+padding:12px;
+border-radius:12px;
+}
+
+footer{
+text-align:center;
+color:var(--muted);
+font-size:12px;
+margin-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<main class="wrap">
+
+<div class="topbar">
+<div class="brand">
+<span class="dot"></span>
+<span>DevOps Portfolio</span>
+</div>
+<div>Linux • Automation • Middleware</div>
+</div>
+
+<section class="hero">
+<h1>Hello I'm <span>Sumit</span> 👋</h1>
+
+<h2>
+DevOps & Middleware Engineer with experience in enterprise
+payment systems, automation and Linux infrastructure.
+</h2>
+
+</section>
+
+<section class="grid">
+
+<div class="card">
+<h3>⚡ Skills & Expertise</h3>
+
+<ul class="list">
+
+<li class="item">
+<b>Middleware Administration</b><br>
+Apache HTTP, Tomcat, IBM WebSphere, WebLogic
+</li>
+
+<li class="item">
+<b>DevOps & Automation</b><br>
+Jenkins pipelines, Shell scripting automation
+</li>
+
+<li class="item">
+<b>Linux Infrastructure</b><br>
+Server management, deployments, patching
+</li>
+
+<li class="item">
+<b>Security & Integration</b><br>
+SSL configuration, LDAP integration
+</li>
+
+<li class="item">
+<b>Monitoring & Troubleshooting</b><br>
+JVM tuning, thread dump & heap dump analysis
+</li>
+
+<li class="item">
+<b>Messaging Systems</b><br>
+IBM WebSphere MQ administration
+</li>
+
+</ul>
+</div>
+
+<div class="card">
+
+<h3>🚀 Experience</h3>
+
+<ul class="list">
+
+<li class="item">
+<b>Worldpay</b><br>
+DevOps Engineer (Payments domain)
+</li>
+
+<li class="item">
+<b>TCS</b><br>
+Middleware & DevOps Engineer
+</li>
+
+</ul>
+
+<h3 style="margin-top:20px">📈 Current Focus</h3>
+
+<ul class="list">
+
+<li class="item">Kubernetes</li>
+<li class="item">Cloud DevOps</li>
+<li class="item">Infrastructure Automation</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<footer>
+Built with ❤️ • DevOps Portfolio • Dark Theme
+</footer>
+
+</main>
+
+</body>
+</html>
